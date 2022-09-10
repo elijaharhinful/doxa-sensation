@@ -1,0 +1,555 @@
+/* fonts imported */
+@font-face {
+  font-family: futura-bt-light;
+  src: url(/fonts/futura/futura\ light\ bt.ttf);
+}
+
+@font-face {
+  font-family: futura-bt-medium;
+  src: url(fonts/futura/futura\ medium\ bt.ttf);
+}
+
+@font-face {
+  font-family: futura-bt-bold;
+  src: url(fonts/futura/Futura\ XBlk\ BT.ttf);
+}
+
+@font-face {
+  font-family: futura-lt-italic;
+  src: url(fonts/futura/futura\ light\ Italic\ font.ttf);
+}
+
+@font-face {
+  font-family: futura-bt-italic;
+  src: url(fonts/futura/Futura\ Bold\ Italic\ font.ttf);
+}
+
+/* page style */
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #171717;
+  color: white;
+  overflow-x: hidden;
+}
+
+header {
+  display: none;
+}
+
+nav {
+  font-family: futura-bt-medium, sans-serif;
+  background-color: #171717;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  left: 0;
+  padding: 20px 8%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 10;
+  transition: 0.5s;
+}
+
+nav .logo {
+  width: 5.6rem;
+}
+
+nav .logo1 {
+  display: none;
+}
+
+nav .closebtn {
+  display: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 2.5rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a:hover {
+  color: gray;
+}
+
+nav .active {
+  font-family: futura-bt-bold;
+}
+
+.hero {
+  width: 100%;
+  height: 100vh;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  overflow-x: hidden;
+}
+
+/* background video style begins here */
+#bg-video {
+  position: relative;
+  top: -15%;
+  left: 2%;
+  bottom: 0;
+  width: 80%;
+  max-height: 100vh;
+}
+
+/* background video style ends here */
+
+/* blob style */
+.hero .blob-gif {
+  position: relative;
+  top: 8%;
+  left: -35%;
+  bottom: 0;
+  width: 55%;
+  max-height: 50%;
+  z-index: 2;
+}
+
+/* carousel */
+.hero .shoe-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  left: -73%;
+  bottom: 0;
+  max-height: 75vh;
+  width: 38%;
+  z-index: 4;
+}
+
+.hero .shoe-container .shoe {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  max-height: 65vh;
+}
+
+.hero .shoe-container .text {
+  position: relative;
+  text-align: right;
+  font-family: futura-bt-medium;
+  font-size: 1.5rem;
+}
+
+.hero .shoe-container .text a {
+  text-decoration: none;
+  color: rgb(124, 121, 221);
+}
+
+.hero .shoe-container .text a:hover {
+  color: rgb(232, 231, 246);
+}
+
+
+
+/* socials style begins here */
+.socials {
+  position: fixed;
+  top: 52%;
+  bottom: 0;
+  margin-left: 2rem;
+  z-index: 56;
+}
+
+.socials ul li {
+  padding-bottom: 2rem;
+}
+
+.socials ul li img {
+  height: 3rem;
+  width: 3rem;
+}
+
+.about {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 7rem;
+}
+
+.about .left {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.about .left iframe {
+  height: 65vh;
+  width: 100vh;
+}
+
+.about .right {
+  width: 40%;
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  font-family: futura-bt-italic;
+  padding: 5rem;
+}
+
+.about .right .about-image {
+  position: relative;
+}
+
+.about .right .about-image img {
+  width: 65%;
+}
+
+.about .right .dream {
+  position: relative;
+  top: -8%;
+  left: 25%;
+}
+
+.about .right .dream h2 {
+  letter-spacing: 0.3rem;
+}
+
+.about .right .about-text {
+  line-height: 2rem;
+}
+
+.core-values{
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) ;
+  font-family: futura-bt-medium;
+  margin: 1rem 8rem;
+}
+
+.core-values h2{
+  font-family: futura-bt-italic;
+}
+
+.core-values > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.item-1{
+  grid-column: 1 / span 3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.item-2{
+  height: 65vh;
+  background: url(/images/gifs/INTEGRITY_full\ black.gif) no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.item-2:hover{
+  background: url(/images/gifs/0001.gif) no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.item-4{
+  background: url(/images/gifs/Creativity_BASIS.gif) no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.item-4:hover{
+  background: url(/images/gifs/Creativity_lighted.gif) no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+/* .item-6{
+  background: url(/images/gifs/0001.gif) no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.item-6:hover{
+  background: url(/images/gifs/HAND_HEAT_lighted\ up_alpha0001.gif) no-repeat;
+  background-position: center;
+  background-size: contain;
+} */
+
+.item-3, .item-5 , .item-7 {
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3rem;
+  line-height: 2rem;
+}
+.intergity{
+  background-color: #006A80;
+}
+
+.creativity{
+  background-color: #D37204;
+}
+
+.excellence{
+  background-color: #EE4033;
+}
+
+footer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  border: 1px solid gray;
+}
+
+@media screen and (max-width: 600px) {
+  header {
+    height: 6rem;
+    width: 100%;
+    position: fixed;
+    background: #171717;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    padding: 1rem;
+    z-index: 8;
+  }
+
+  header .logo img {
+    position: relative;
+    left: 43%;
+    height: 100%;
+  }
+
+  header .openbtn {
+    position: absolute;
+    top: 26%;
+    right: 45px;
+    font-size: 2rem;
+    cursor: pointer;
+    color: white;
+  }
+
+  nav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.9);
+    display: block;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    padding: 1rem 0 0 0;
+  }
+
+  nav .logo {
+    display: none;
+  }
+
+  nav .logo1 {
+    display: block;
+  }
+
+  nav .logo1 img {
+    position: absolute;
+    right: 45%;
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+
+  nav ul {
+    height: 100vh;
+    position: relative;
+    top: 5%;
+    width: 100%;
+    text-align: center;
+    margin-top: 1.3rem;
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow: hidden;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 3rem;
+  }
+
+  nav ul li a {
+    padding: 0.5rem;
+    font-size: 2rem;
+    color: rgb(176, 175, 175);
+    display: inline-block;
+  }
+
+  nav ul li a:hover,
+  nav ul li a:focus {
+    color: #fcfcfc;
+  }
+
+  nav .closebtn {
+    display: block;
+    position: absolute;
+    top: 3%;
+    right: 45px;
+    font-size: 2rem;
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+  }
+
+  nav .openbtn {
+    display: block;
+  }
+
+  .hero {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 75vh;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  /* background video style begins here */
+  #bg-video {
+    top: 13%;
+    left: 18%;
+    width: 150%;
+  }
+
+  /* background video style ends here */
+
+  /* blob style */
+  .hero .blob-gif {
+    top: 10%;
+    left: -4%;
+    width: 61%;
+  }
+
+  /* carousel */
+  .hero .shoe-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    top: -14%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .hero .shoe-container .shoe {
+    position: relative;
+    max-height: 100%;
+    width: 55%;
+  }
+
+  .hero .shoe-container .text {
+    text-align: center;
+    font-family: futura-bt-medium;
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+
+  /* socials style begins here */
+  .socials {
+    position: fixed;
+    top: 32%;
+    bottom: 0;
+    margin-left: 1rem;
+  }
+
+  .socials ul li {
+    padding-bottom: 1.2rem;
+  }
+
+  .socials ul li img {
+    height: 1.8rem;
+    width: 1.8rem;
+  }
+
+  .about {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 4rem;
+    overflow: hidden;
+    height: 100vh;
+  }
+
+  .about .left {
+    width: 100%;
+    top: 30%;
+  }
+
+  .about .left iframe {
+    position: relative;
+    height: 65vh;
+    width: 100vh;
+  }
+
+  .about .right {
+    width: 100%;;
+    padding: 0;
+  }
+
+  .about .right .about-image {
+    position: relative;
+    top: -115%;
+  }
+
+  .about .right .about-image img {
+    width: 70%;
+  }
+
+  .about .right .dream {
+    position: relative;
+    top: -123%;
+    left: 25%;
+  }
+
+  .about .right .dream h2 {
+    letter-spacing: 0.1rem;
+    font-size: 1rem;
+  }
+
+  .about .right .about-text {
+    position: relative;
+    top: -29%;
+    line-height: 1.2rem;
+  }
+
+  
+}
+
