@@ -251,6 +251,17 @@ nav .active {
   text-align: center;
 }
 
+.core-values .core-values-img img{
+  height: 100%;
+}
+.core-values .core-values-img{
+  height: 50%;
+}
+.core-values .sensational{
+  font-size: 1.5rem;
+  margin: 3rem;
+}
+
 .item-1{
   grid-column: 1 / span 3;
   display: flex;
@@ -270,6 +281,7 @@ nav .active {
   background: url(/images/gifs/0001.gif) no-repeat;
   background-position: center;
   background-size: contain;
+  cursor: url(/images/icons/Ellipse\ 1.png), pointer;
 }
 
 .item-4{
@@ -282,19 +294,22 @@ nav .active {
   background: url(/images/gifs/Creativity_lighted.gif) no-repeat;
   background-position: center;
   background-size: contain;
+  cursor: url(/images/icons/Ellipse\ 3.png), pointer;
 }
 
-/* .item-6{
-  background: url(/images/gifs/0001.gif) no-repeat;
+.item-6{
+  height: 65vh;
+  background: url(/images/gifs/Excellence_FULL_BLACK.gif) no-repeat;
   background-position: center;
   background-size: contain;
 }
 
 .item-6:hover{
-  background: url(/images/gifs/HAND_HEAT_lighted\ up_alpha0001.gif) no-repeat;
+  background: url(/images/gifs/Excellence_coloured.gif) no-repeat;
   background-position: center;
   background-size: contain;
-} */
+  cursor: url(/images/icons/Ellipse\ 2.png), pointer;
+}
 
 .item-3, .item-5 , .item-7 {
   align-items: center;
@@ -303,7 +318,7 @@ nav .active {
   padding: 3rem;
   line-height: 2rem;
 }
-.intergity{
+.integrity{
   background-color: #006A80;
 }
 
