@@ -297,7 +297,7 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-bottom: 2.5rem;
+  margin: 9rem 0;
 }
 
 .services .services-icons {
@@ -334,7 +334,7 @@ header {
   grid-template-columns: 60% 30%;
   grid-template-rows: 23rem 55rem 32rem 55rem;
   font-family: futura-bt-medium;
-  margin: 7rem 7rem 0 7rem;
+  margin: 17rem 7rem 0 7rem;
   cursor: url(../images/icons/candy.png), pointer;
 }
 
@@ -359,7 +359,7 @@ header {
 
 .candy .grid-item-1 .what-we-do {
   position: relative;
-  top: -104%;
+  top: -95%;
   left: 35%;
   width: 65%;
   text-align: left;
@@ -912,6 +912,7 @@ footer .bottom-nav .active {
     align-items: center;
     justify-content: center;
     padding-left: 2.5rem;
+    margin: 3rem 0;
   }
 
   .services .services-img{
