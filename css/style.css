@@ -1,27 +1,27 @@
 /* fonts imported */
 @font-face {
   font-family: futura-bt-light;
-  src: url(/fonts/futura/futura\ light\ bt.ttf);
+  src: url(./fonts/futura/futura\ light\ bt.ttf);
 }
 
 @font-face {
   font-family: futura-bt-medium;
-  src: url(fonts/futura/futura\ medium\ bt.ttf);
+  src: url(./fonts/futura/futura\ medium\ bt.ttf);
 }
 
 @font-face {
   font-family: futura-bt-bold;
-  src: url(fonts/futura/Futura\ XBlk\ BT.ttf);
+  src: url(./fonts/futura/Futura\ XBlk\ BT.ttf);
 }
 
 @font-face {
   font-family: futura-lt-italic;
-  src: url(fonts/futura/futura\ light\ Italic\ font.ttf);
+  src: url(./fonts/futura/futura\ light\ Italic\ font.ttf);
 }
 
 @font-face {
   font-family: futura-bt-italic;
-  src: url(fonts/futura/Futura\ Bold\ Italic\ font.ttf);
+  src: url(./fonts/futura/Futura\ Bold\ Italic\ font.ttf);
 }
 
 /* page style */
@@ -160,14 +160,14 @@ header {
   align-items: center;
   justify-content: center;
   position: relative;
-  background: url(/images/gifs/about_colored.gif) no-repeat;
-  background: url(/images/gifs/about_black_gold.gif) no-repeat;
+  background: url(../images/gifs/about_colored.gif) no-repeat;
+  background: url(../images/gifs/about_black_gold.gif) no-repeat;
   background-position: center;
   background-size: contain;
 }
 
 .about .left:hover {
-  background: url(/images/gifs/about_colored.gif) no-repeat;
+  background: url(../images/gifs/about_colored.gif) no-repeat;
   background-position: center;
   background-size: contain;
 }
@@ -227,46 +227,46 @@ header {
 
 .core-values .item-2 {
   height: 65vh;
-  background: url(/images/gifs/integrity_colored.gif) no-repeat;
-  background: url(/images/gifs/Integriity_full_black.gif) no-repeat;
+  background: url(../images/gifs/integrity_colored.gif) no-repeat;
+  background: url(../images/gifs/Integriity_full_black.gif) no-repeat;
   background-position: center;
   background-size: contain;
 }
 
 .core-values .item-2:hover {
-  background: url(/images/gifs/integrity_colored.gif) no-repeat;
+  background: url(../images/gifs/integrity_colored.gif) no-repeat;
   background-position: center;
   background-size: contain;
-  cursor: url(/images/icons/blue_ellipse.png), pointer;
+  cursor: url(../images/icons/blue_ellipse.png), pointer;
 }
 
 .core-values .item-4 {
-  background: url(/images/gifs/Creativity_lighted.gif) no-repeat;
-  background: url(/images/gifs/Creativity_black.gif) no-repeat;
+  background: url(../images/gifs/Creativity_lighted.gif) no-repeat;
+  background: url(../images/gifs/Creativity_black.gif) no-repeat;
   background-position: center;
   background-size: contain;
 }
 
 .core-values .item-4:hover {
-  background: url(/images/gifs/Creativity_lighted.gif) no-repeat;
+  background: url(../images/gifs/Creativity_lighted.gif) no-repeat;
   background-position: center;
   background-size: contain;
-  cursor: url(/images/icons/brown_ellipse.png), pointer;
+  cursor: url(../images/icons/brown_ellipse.png), pointer;
 }
 
 .core-values .item-6 {
   height: 65vh;
-  background: url(/images/gifs/Excellence_coloured.gif) no-repeat;
-  background: url(/images/gifs/Excellence_black.gif) no-repeat;
+  background: url(../images/gifs/Excellence_coloured.gif) no-repeat;
+  background: url(../images/gifs/Excellence_black.gif) no-repeat;
   background-position: center;
   background-size: contain;
 }
 
 .core-values .item-6:hover {
-  background: url(/images/gifs/Excellence_coloured.gif) no-repeat;
+  background: url(../images/gifs/Excellence_coloured.gif) no-repeat;
   background-position: center;
   background-size: contain;
-  cursor: url(/images/icons/red_ellipse.png), pointer;
+  cursor: url(../images/icons/red_ellipse.png), pointer;
 }
 
 .core-values .item-3,
@@ -334,7 +334,7 @@ header {
   grid-template-rows: 23rem 55rem 32rem 55rem;
   font-family: futura-bt-medium;
   margin: 7rem 7rem 0 7rem;
-  cursor: url(/images/icons/candy_125_by_64_alpha.png), pointer;
+  cursor: url(../images/icons/candy_125_by_64_alpha.png), pointer;
 }
 
 .candy .text a {
@@ -532,7 +532,7 @@ header {
 }
 
 .clients:hover {
-  cursor: url(/images/icons/star.png), pointer;
+  cursor: url(../images/icons/star.png), pointer;
 }
 
 .clients .desktop-view-img {
@@ -605,7 +605,7 @@ footer .top .search form input {
   border: 1px solid white;
   border-radius: 0;
   padding: 1rem;
-  background: transparent url("/images/icons/search.png");
+  background: transparent url("../images/icons/search.png");
   background-repeat: no-repeat;
   background-position: right;
   background-size: contain;
@@ -1246,7 +1246,7 @@ footer .bottom-nav .active {
     border: 1px solid white;
     border-radius: 0;
     padding: 1rem;
-    background: transparent url("/images/icons/search.png");
+    background: transparent url("../images/icons/search.png");
     background-repeat: no-repeat;
     background-position: right;
     background-size: contain;
