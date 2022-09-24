@@ -315,8 +315,8 @@ header {
 }
 
 .services .services-icons img{
-  width: 10rem;
-  height: 9rem;
+  width: 8rem;
+  height: 7rem;
   margin: 2rem;
   transition: transform .2s;
 }
@@ -565,9 +565,7 @@ footer .top {
   justify-content: center;
   margin-bottom: 4rem;
 }
-footer .top *{
-  border: 2px solid red;
-}
+
 footer .top h2 {
   color: #5fecff;
 }
