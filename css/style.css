@@ -110,19 +110,24 @@ header {
 /* background video style ends here */
 .hero .get-started {
   position: relative;
-  top: 70%;
+  top: 60%;
   bottom: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
 
+.hero .get-started img{
+  width: 50%;
+  height: 50%;
+}
 .hero .get-started a {
   display: block;
   color: white;
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 1rem;
 }
 
 
@@ -587,7 +592,7 @@ footer .top .logo {
 }
 
 footer .top .logo img {
-  height: 65%;
+  height: 60%;
   width: 50%;
 }
 
@@ -649,7 +654,7 @@ footer .bottom-nav {
 
 footer .bottom-nav ul li {
   display: inline-block;
-  margin-left: 2.5rem;
+  margin-left: .5rem;
 }
 
 footer .bottom-nav ul li a {
