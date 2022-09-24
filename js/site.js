@@ -1,28 +1,33 @@
 function openNav() {
-    document.querySelector("nav").style.width = "100%";
+    document.querySelector(".top-nav").style.width = "100vw";
+    document.querySelector("header").style.width = "0"
 }
 
 function closeNav() {
-    document.querySelector("nav").style.width = "0%";
+    document.querySelector(".top-nav").style.width = "0";
+    document.querySelector("header").style.width = "100vw"
 }
 
-var swiper = new Swiper(".mySwiper", {
-    spaceBetween: 30,
-    effect: "fade",
-    fadeEffect:{
-        crossFade: true,
-    },
-    autoplay: {
-      delay: 2500,
-      disableOnInteraction: false,
-      pauseOnMouseEnter: true,
-    },
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-    },
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
-  });
+var nav = document.getElementById('top-nav'); 
+nav.style.backgroundColor = "rgb(23, 23, 23, 0.0)"
+
+window.addEventListener('scroll', function(event) { 
+    event.preventDefault();
+
+    if (window.scrollY <= 100) { 
+      nav.style.backgroundColor = "rgb(23, 23, 23, 0.0)";
+    } else {
+      nav.style.backgroundColor = "rgb(23, 23, 23)"
+
+    }
+});
+
+
+var leftArrayItems = [
+  document.querySelector('.about'),
+  document.querySelector('.services'),
+  document.querySelector('.candy'),
+  document.querySelector('.clients')
+]
+
+ScrollReveal().reveal(leftArrayItems,{delay: 400})

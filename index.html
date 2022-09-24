@@ -6,29 +6,34 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- external stylesheets added -->
-    <link rel="stylesheet" href="css/animate.min.css" />
-    <!-- Link Swiper's CSS -->
-    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
 
+    <!-- external stylesheets added -->
+    <!-- Animate css -->
+    <link rel="stylesheet" href="css/animate.min.css" />
+    
     <!--site stylesheet-->
     <link rel="stylesheet" href="css/style.css" type="text/css" />
+
+    <!-- scroll reveal script -->
+    <script src="js/scrollreveal.min.js"></script>
 
     <!-- add icon to the title bar -->
     <link rel="shortcut icon" href="images/icons/doxa_favicon.png" type="image/x-icon" />
 
     <title>Doxa Sensations</title>
+    <meta name="keywords" content="doxa, sensations, doxasensations, doxa sensations, doxa sensation" />
+    <meta name="description" content="" />
 </head>
 
 <body>
     <header>
-        <a class="logo" href="index.html"><img src="images/logo/Group_2_white.png" alt="doxa logo" /></a>
+        <a class="logo" href="index.html"><img src="images/logo/doxa_logo_portrait.png" alt="doxa logo" /></a>
         <span class="openbtn" onclick="openNav()">&#9776;</span>
     </header>
 
-    <nav>
-        <a class="logo" href="index.html"><img src="images/logo/Logo landscape_white.png" alt="doxa logo" /></a>
-        <a class="logo1" href="index.html"><img src="images/logo/Group_2_white.png" alt="doxa logo" /></a>
+    <nav class="top-nav scale-in-center" id="top-nav">
+        <a class="logo" href="index.html"><img src="images/logo/doxa_logo_landscape_white.png" alt="doxa logo" /></a>
+        <a class="logo1" href="index.html"><img src="images/logo/doxa_logo_portrait.png" alt="doxa logo" /></a>
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <ul>
             <li>
@@ -38,7 +43,7 @@
                 <a href="#about">About</a>
             </li>
             <li>
-                <a href="#">Personal Portfolio</a>
+                <a href="#">Professional Portfolio</a>
             </li>
             <li>
                 <a href="#">Fantasy Projects</a>
@@ -48,58 +53,45 @@
             </li>
         </ul>
     </nav>
-
     <div class="hero">
         <video autoplay playsinline muted loop poster="images/VID_Snapshot.png" id="bg-video">
-            <source src="videos/Dark theme_nO_PATTERNS0001-0300.mp4" type="video/mp4" />
+            <source src="videos/welcome_video.mp4" type="video/mp4" />
             There is a video here. Sadly your browser does not support it.
         </video>
-
-        <img src="images/gifs/FRESH start.gif" class="blob-gif" alt="blob gif" />
-
-        <div class="shoe-container mySwiper">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <img src="images/Shoe edit_black.png" class="shoe" alt="shoe" />
-                    <div class="text">
-                        <a href="#">Fantasy Project</a>
-                        <p>Mercedes-Benz Shoe Concept</p>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <img src="images/Shoe edit_no platform.png" class="shoe" alt="shoe" />
-                    <div class="text">
-                        <a href="#">Fantasy Project</a>
-                        <p>Mercedes-Benz Shoe Concept</p>
-                    </div>
-                </div>
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
-            </div>
+        <div class="get-started">
+            <a href="#about"><img src="images/icons/arrow_circle_down_icon.png" alt="down-arrow"></a>
+            <a href="#about"> Let's get started</a>
         </div>
     </div>
+
+
 
     <aside class="socials">
         <ul>
             <li class="animate__animated animate__fadeInDown" data-bs-toggle="tooltip" data-bs-placement="right"
                 title="Whatsapp">
-                <a href="http://api.whatsapp.com/send?phone=233264525811" target="_blank"><img src="images/icons/Whatsapp.png" alt="whatsapp logo"/></a>
+                <a href="http://api.whatsapp.com/send?phone=233264525811" target="_blank"><img
+                        src="images/icons/Whatsapp.png" alt="whatsapp logo" /></a>
             </li>
             <li class="animate__animated animate__fadeInDown animate__delay-1s" data-bs-toggle="tooltip"
                 data-bs-placement="right" title="People per hour">
-                <a href="https://www.peopleperhour.com/freelancer/design/kwasi-osei_tutu-3d-artist-graphic-designer-ui-ux-zjmzany" target="_blank"><img src="images/icons/People per hour.png" alt="people per hour" /></a>
+                <a href="https://www.peopleperhour.com/freelancer/design/kwasi-osei_tutu-3d-artist-graphic-designer-ui-ux-zjmzany"
+                    target="_blank"><img src="images/icons/People_per_hour.png" alt="people per hour" /></a>
             </li>
             <li class="animate__animated animate__fadeInDown animate__delay-2s" data-bs-toggle="tooltip"
                 data-bs-placement="right" title="LinkedIn">
-                <a href="https://www.linkedin.com/in/doxasensations/" target="_blank"><img src="images/icons/LinkedIn.png" alt="facebook logo" /></a>
+                <a href="https://www.linkedin.com/in/doxasensations/" target="_blank"><img
+                        src="images/icons/LinkedIn.png" alt="facebook logo" /></a>
             </li>
             <li class="animate__animated animate__fadeInDown animate__delay-3s" data-bs-toggle="tooltip"
                 data-bs-placement="right" title="Instagram">
-                <a href="https://www.instagram.com/sensationdoxa_b/" target="_blank"><img src="images/icons/Instagram.png" alt="instagram logo"  /></a>
+                <a href="https://www.instagram.com/sensationdoxa_b/" target="_blank"><img
+                        src="images/icons/Instagram.png" alt="instagram logo" /></a>
             </li>
             <li class="animate__animated animate__fadeInDown animate__delay-4s" data-bs-toggle="tooltip"
                 data-bs-placement="right" title="Twitter">
-                <a href="https://twitter.com/sensationdoxa" target="_blank"><img src="images/icons/Twitter.png" alt="twitter logo" /></a>
+                <a href="https://twitter.com/sensationdoxa" target="_blank"><img src="images/icons/Twitter.png"
+                        alt="twitter logo" /></a>
             </li>
         </ul>
     </aside>
@@ -108,10 +100,7 @@
         <div class="left"></div>
         <div class="right">
             <div class="about-image">
-                <img src="images/About.png" alt="about us">
-            </div>
-            <div class="dream">
-                <h2>Dreams do come true!</h2>
+                <img src="images/headings/about_us.png" alt="about us">
             </div>
             <div class="about-text">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
@@ -130,10 +119,7 @@
     <section id="core-values" class="core-values">
         <div class="core-values-head item-1">
             <div class="core-values-img">
-                <img src="images/Core_values_text.png" alt="core values">
-            </div>
-            <div class="sensational">
-                <h2>Here's why we are sensational</h2>
+                <img src="images/headings/core_values.png" alt="core values">
             </div>
         </div>
 
@@ -175,67 +161,213 @@
 
     </section>
 
-    <section id="candy" class="candy">
-        <div class="left">
-            <img src="/images/3D_Render_Illustration_of_red_lollipop_isolated_premium_psd.png" alt="3d lollipop">
+    <section id="services" class="services">
+        <div class="services-img">
+            <img src="images/headings/Our_Services.png" alt="our services image">
         </div>
-        <div class="center">
-            <img src="images/Eye candy.png" alt="eye candy image">
-        </div>
-        <div class="right">
-            <div class="right-head">
-                <h2>What we do</h2>
+        <div class="services-icons">
+            <div class="3d-design">
+                <img src="images/icons/3d_design.png" alt="">
+                <h2>3D Design</h2>
             </div>
-            
-            <div class="right-text">
-                <p>
-                    Got a sweet tooth? don't worry, we got eye candy
-                </p>
-                <br>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias neque quidem omnis mollitia unde
-                    consectetur sapiente repudiandae et id, quia ipsa maxime cum, rerum commodi explicabo eos deserunt
-                    facilis eligendi.
-                </p>
+            <div class="ui-design">
+                <img src="images/icons/ui_design.png" alt="">
+                <h2>UI Design</h2>
             </div>
-            
-            <div class="portfolio-button">
-                <a href="#">View Portfolio</a>
+            <div class="graphic-design">
+                <img src="images/icons/graphic_design.png" alt="">
+                <h2>Graphic Design</h2>
             </div>
-            
+            <div class="animation">
+                <img src="images/icons/animation.png" alt="">
+                <h2>Animation</h2>
+            </div>
+            <div class="brand-identity">
+                <img src="images/icons/brand_identity.png" alt="">
+                <h2>Brand Identity</h2>
+            </div>
+            <!-- <img class="desktop-view-img" src="images/icons/Services _icons.png" alt="services icons">
+            <img class="mobile-view-img" src="images/icons/Services_mobile.png" alt="services icons"> -->
         </div>
     </section>
 
+    <section id="candy" class="candy">
+        <div class="grid-item-1">
+            <div class="eye-candy-img">
+                <img src="images/headings/eye_candy.png" alt="eye candy image">
+            </div>
+            <div class="what-we-do">
+                <div class="what-we-do-text">
+                    <p>
+                        Got a sweet tooth? don't worry, we got eye candy.
+                    </p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias neque quidem omnis mollitia
+                        unde
+                        consectetur sapiente repudiandae et id, quia ipsa maxime cum, rerum commodi explicabo eos
+                        deserunt
+                        facilis eligendi sapiente repudiandae et id olor sit amet consectetur.
+                    </p>
+                </div>
+                <div class="portfolio-button">
+                    <a href="#">View Portfolio</a>
+                </div>
+            </div>
+        </div>
+        <div class="grid-item-2">
+            <div class="text">
+                <a href="#" style="color:#ff0f91">Professional Portfolio</a>
+                <p>Pull-up banner design</p>
+            </div>
+            <div class="pull-up-banner-img">
+                <img src="images/Pull_up_black.png" alt="pull up banner image"
+                    onmouseover="this.src='images/Pull_up_coloured.png';"
+                    onmouseout="this.src='images/Pull_up_black.png';">
+                <img class="to-reveal-1" src="images/Pull_up_coloured.png" style="display: none;" alt="pull up banner image">
+            </div>
+        </div>
+        <div class="grid-item-3">
+            <div class="fast-food-img reveal">
+                <img src="images/Spring_rolls_black.png" alt="apple branded fast food"
+                    onmouseover="this.src='images/Spring_rolls_coloured.png';"
+                    onmouseout="this.src='images/Spring_rolls_black.png';">
+                <img src="images/Spring_rolls_coloured.png" style="display: none;" alt="pull up banner image">
+            </div>
+            <div class="text">
+                <a href="#" style="color:#0fb3ff">Fantasy Project</a>
+                <p>Apple branded fast food</p>
+            </div>
+        </div>
+        <div class="grid-item-4">
+            <div class="packaging-img">
+                <img src="images/Labels_black.png" alt="labels" onmouseover="this.src='images/Labels_coloured.png';"
+                    onmouseout="this.src='images/Labels_black.png';">
+                <img class="to-reveal" src="images/Labels_coloured.png" style="display: none;" alt="pull up banner image">
+            </div>
+            <div class="text">
+                <a href="#" style="color:#0fff3c">Professional Portfolio</a>
+                <p>Label/Packaging design </p>
+            </div>
+        </div>
+        <div class="grid-item-5">
+            <div class="social-media-img">
+                <img src="images/Social_media_posts_black.png" alt="Social media posts"
+                    onmouseover="this.src='images/Social_media_posts_coloured.png';"
+                    onmouseout="this.src='images/Social_media_posts_black.png';">
+                <img class="to-reveal" src="images/Social_media_posts_coloured.png" style="display: none;" alt="Social media posts">
+            </div>
+            <div class="text">
+                <a href="#" style="color:#D37204">Professional Portfolio</a>
+                <p>Social Media posts design</p>
+            </div>
+        </div>
+        <div class="grid-item-6">
+                <video autoplay playsinline muted loop poster="/images/alive.png" id="alive-video">
+                    <source src="videos/alive_video.mp4" type="video/mp4" />
+                    There is a video here. Sadly your browser does not support it.
+                </video>
+                <div class="alive-img"><img src="/images/headings/alive.png" alt="alive image"></div>
+                <div class="text">
+                    <div class="alive-text">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias neque quidem omnis
+                            mollitia
+                            unde
+                            consectetur sapiente repudiandae et id, quia ipsa maxime cum, rerum commodi explicabo eos
+                            deserunt
+                            facilis eligendi sapiente repudiandae et id olor sit amet consectetur.
+                        </p>
+                    </div>
+                    <div class="portfolio-button">
+                        <a href="#">View Portfolio</a>
+                    </div>
+                </div>
 
+        </div>
+    </section>
 
+    <section id="clients" class="clients">
+        <div class="clients-img"><img src="images/headings/Clients.png" alt="clients"></div>
+        <div class="desktop-view-img"><img src="images/icons/client_logos.png" alt=""></div>
+        <div class="mobile-view-img"><img src="images/icons/client_logos_mobile.png" alt=""></div>
+    </section>
 
 
     <!-- Footer Section -->
     <footer class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <div class="footer__copyright__text">
-                        <p>
-                            Copyright ©
-                            <script>
-                                document.write(new Date().getFullYear());
-                            </script>
-                            || Doxa Sensations
-                        </p>
-                    </div>
-                </div>
+        <div class="top">
+            <div class="logo"><img src="/images/logo/doxa_logo_portrait.png" alt="doxs sensations"></div>
+            <div class="design">
+                <h2>It's more than a design,</h2>
+                <h2> it's a sensation</h2>
+                <br>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto nulla animi quo nemo delectus optio
+                    amet, exercitationem accusantium totam ipsam vero blanditiis tempore? Quaerat deserunt dicta
+                    molestiae a commodi distinctio?exercitationem accusantium totam ipsam vero blanditiis tempore?
+                    Quaerat deserunt dicta
+                    molestiae a commodi distinctioexercitationem accusantium totam ipsam vero blanditiis tempore?
+                    Quaerat deserunt dicta
+                    molestiae </p>
+            </div>
+            <div class="footer-services">
+                <h2>Our Services</h2>
+                <br>
+                <ul>
+                    <li>Graphic Design</li>
+                    <li>UI Design</li>
+                    <li>3D Design</li>
+                    <li>Brand Identity</li>
+                    <li>Animation</li>
+                </ul>
+            </div>
+            <div class="search">
+                <form action="#">
+                    <input type="search" placeholder="Search Here..." name="search">
+                </form>
+                <br>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto nulla animi quo nemo delectus optio
+                    amet sum dolor sit amet consectetur adipisicing elit. Iusto nulla animi quo nemo delectus optio
+                    amet</p>
             </div>
         </div>
+        <div class="bottom">
+            <div class="copyright">
+                <p>
+                    Copyright ©
+                    <script>
+                        document.write(new Date().getFullYear());
+                    </script>
+                    || Doxa Artistry
+                </p>
+                <p>Trust <span>Privacy Statement</span> <span>Ad choices</span></p>
+                <p>Do not sell my privacy information</p>
+            </div>
+            <nav class="bottom-nav">
+                <ul>
+                    <li>
+                        <a class="active" href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Professional Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#">Fantasy Projects</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
     </footer>
     <!-- Footer Section End -->
-    <!--external javascript included-->
-
-    <!-- Swiper JS -->
-    <script src="/js/swiper-bundle.min.js"></script>
-    <script src="/js/swiper-bundle.min.js.map"></script>
 
     <!--main site js-->
     <script src="/js/site.js"></script>
+
 </body>
 
 </html>
