@@ -565,7 +565,9 @@ footer .top {
   justify-content: center;
   margin-bottom: 4rem;
 }
-
+footer .top *{
+  border: 2px solid red;
+}
 footer .top h2 {
   color: #5fecff;
 }
