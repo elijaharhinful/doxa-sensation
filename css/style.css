@@ -348,9 +348,17 @@ header {
   padding-left: 5rem;
 }
 
+.candy .grid-item-1 .eye-candy-img {
+    width: 50%;
+  }
+
+  .candy .grid-item-1 .eye-candy-img img {
+    width: 100%;
+  }
+
 .candy .grid-item-1 .what-we-do {
   position: relative;
-  top: -134%;
+  top: -104%;
   left: 35%;
   width: 65%;
   text-align: justify;
@@ -862,14 +870,23 @@ footer .bottom-nav .active {
 
   .core-values .item-2 {
     height: 30vh;
+    background: url(../images/gifs/integrity_colored.gif) no-repeat;
+    background-position: center;
+    background-size: contain;
   }
 
   .core-values .item-4 {
     height: 30vh;
+    background: url(../images/gifs/Creativity_lighted.gif) no-repeat;
+    background-position: center;
+    background-size: contain;
   }
 
   .core-values .item-6 {
     height: 30vh;
+    background: url(../images/gifs/Excellence_coloured.gif) no-repeat;
+    background-position: center;
+    background-size: contain;
   }
 
   .core-values .item-3,
