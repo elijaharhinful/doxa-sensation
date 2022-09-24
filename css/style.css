@@ -572,12 +572,13 @@ footer .top h2 {
 
 footer .top .logo {
   width: 20%;
-  padding: 2rem 4rem;
+  border: 2px solid green;
 }
 
 footer .top .logo img {
   height: 100%;
   width: 100%;
+  border: 2px solid green;
 }
 
 footer .top .design {
