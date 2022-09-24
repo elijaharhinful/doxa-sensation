@@ -334,7 +334,7 @@ header {
   grid-template-rows: 23rem 55rem 32rem 55rem;
   font-family: futura-bt-medium;
   margin: 7rem 7rem 0 7rem;
-  cursor: url(../images/icons/candy_125_by_64_alpha.png), pointer;
+  cursor: url(../images/icons/candy.png), pointer;
 }
 
 .candy .text a {
