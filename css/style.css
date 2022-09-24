@@ -582,21 +582,21 @@ footer .top .logo img {
 
 footer .top .design {
   width: 30%;
-  padding: 0 5rem;
+  padding: 0 2rem;
 }
 
 footer .top .footer-services {
   width: 20%;
-  padding: 0 5rem;
+  padding: 0 2rem;
 }
 
 footer .top .footer-services ul {
-  line-height: 3rem;
+  line-height: 2rem;
 }
 
 footer .top .search {
   width: 30%;
-  padding: 0 5rem;
+  padding: 0 2rem;
 }
 
 footer .top .search form input {
