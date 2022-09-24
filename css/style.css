@@ -361,7 +361,7 @@ header {
   top: -104%;
   left: 35%;
   width: 65%;
-  text-align: justify;
+  text-align: left;
 }
 
 .candy .grid-item-1 .portfolio-button {
@@ -377,7 +377,6 @@ header {
 
 .candy .grid-item-1 p {
   font-size: 1.2rem;
-  line-height: 2rem;
 }
 
 .candy .grid-item-1 a {
