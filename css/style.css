@@ -197,7 +197,7 @@ header {
 }
 
 .about .right .about-text {
-  line-height: 2rem;
+  line-height: 1.5rem;
 }
 
 .core-values {
@@ -278,10 +278,16 @@ header {
 .core-values .item-7 {
   align-items: center;
   flex-direction: column;
+  align-items: flex-start;
   justify-content: center;
   padding: 3rem;
-  line-height: 2rem;
+  line-height: 1.5rem;
   text-align: left;
+}
+
+.core-values h2{
+  text-align: left;
+  margin-bottom: 1.3rem;
 }
 
 .core-values .integrity {
@@ -380,7 +386,7 @@ header {
 }
 
 .candy .grid-item-1 p {
-  line-height: 2rem;
+  line-height: 1.5rem;
 }
 
 .candy .grid-item-1 a {
@@ -500,6 +506,14 @@ header {
   position: relative;
   top: -4%;
   left: -20%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.candy .grid-item-6 .alive-img img{
+  width: 90%;
 }
 
 .candy .grid-item-6 .text {
@@ -509,7 +523,7 @@ header {
   top: -30%;
   left: 26%;
   width: 43%;
-  line-height: 2rem;
+  line-height: 1.5rem;
 }
 
 .candy .grid-item-6 .text .portfolio-button {
@@ -590,7 +604,7 @@ footer .top .logo {
 
 footer .top .logo img {
   height: 60%;
-  width: 60%;
+  width: 50%;
 }
 
 footer .top .design {
@@ -599,7 +613,7 @@ footer .top .design {
 }
 
 footer .top p{
-  line-height: 2rem;
+  line-height: 1.5rem;
 }
 
 footer .top .footer-services {
@@ -902,7 +916,7 @@ footer .bottom-nav .active {
     flex-direction: column;
     justify-content: center;
     padding: 3rem 1rem 3rem 5rem;
-    line-height: 2rem;
+    line-height: 1.5rem;
   }
 
   .core-values .integrity,
@@ -1009,7 +1023,7 @@ footer .bottom-nav .active {
 
   .candy .grid-item-1 p {
     font-size: 1.2rem;
-    line-height: 2rem;
+    line-height: 1.5rem;
   }
 
   .candy .grid-item-1 a {
@@ -1259,7 +1273,7 @@ footer .bottom-nav .active {
   }
 
   footer .top .footer-services ul {
-    line-height: 3rem;
+    line-height: 2rem;
   }
 
   footer .top .search {
