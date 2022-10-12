@@ -37,7 +37,8 @@ body {
   background-color: #171717;
   color: white;
   overflow-x: hidden;
-  font-family: futura-bt-medium;
+  font-family: futura-bt-light;
+  font-size: 1.2rem;
 }
 
 header {
@@ -127,7 +128,7 @@ header {
   display: block;
   color: white;
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 
@@ -184,7 +185,6 @@ header {
   display: flex;
   flex-direction: column;
   position: relative;
-  font-family: futura-bt-italic;
   padding: 0 5rem;
 }
 
@@ -203,7 +203,6 @@ header {
 .core-values {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
-  font-family: futura-bt-medium;
   margin: 1rem 8rem;
 }
 
@@ -338,7 +337,6 @@ header {
   display: grid;
   grid-template-columns: 60% 30%;
   grid-template-rows: 23rem 55rem 32rem 55rem;
-  font-family: futura-bt-medium;
   margin: 17rem 7rem 0 7rem;
   cursor: url(../images/icons/candy.png), pointer;
 }
@@ -382,7 +380,7 @@ header {
 }
 
 .candy .grid-item-1 p {
-  font-size: 1.2rem;
+  line-height: 2rem;
 }
 
 .candy .grid-item-1 a {
@@ -391,7 +389,7 @@ header {
   padding: 0.5rem;
   border: 2px solid;
   border-radius: 8rem;
-  font-family: futura-bt-italic;
+  font-family: futura-lt-italic;
 }
 
 .candy .grid-item-1 a:hover {
@@ -511,7 +509,7 @@ header {
   top: -30%;
   left: 26%;
   width: 43%;
-  font-size: 1.2rem;
+  line-height: 2rem;
 }
 
 .candy .grid-item-6 .text .portfolio-button {
@@ -524,7 +522,7 @@ header {
   padding: 0.5rem;
   border: 2px solid white;
   border-radius: 8rem;
-  font-family: futura-bt-italic;
+  font-family: futura-lt-italic;
 }
 
 .candy .grid-item-6 a:hover {
@@ -569,7 +567,6 @@ footer {
   justify-content: center;
   padding: 0 7rem 2rem 7rem;
   margin-top: 10rem;
-  font-family: futura-bt-medium;
 }
 
 footer .top {
@@ -593,12 +590,16 @@ footer .top .logo {
 
 footer .top .logo img {
   height: 60%;
-  width: 50%;
+  width: 60%;
 }
 
 footer .top .design {
   width: 30%;
   padding: 0 2rem;
+}
+
+footer .top p{
+  line-height: 2rem;
 }
 
 footer .top .footer-services {
