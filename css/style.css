@@ -685,6 +685,43 @@ footer .bottom-nav .active {
   font-family: futura-bt-bold;
 }
 
+/* professional portfolio page style */
+.construction-hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* background video style begins here */
+.construction-hero #bg-video {
+  object-fit: fill;
+}
+
+/* background video style ends here */
+.construction-hero .get-started {
+  margin-top: 2.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.construction-hero .get-started img{
+  width: 50%;
+  height: 50%;
+}
+.construction-hero .get-started a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+.construction-hero .get-started a:hover{
+  color: black;
+}
+
 
 @media screen and (max-width: 768px) {
 
