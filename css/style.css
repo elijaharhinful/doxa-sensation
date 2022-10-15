@@ -688,37 +688,48 @@ footer .bottom-nav .active {
 /* professional portfolio page style */
 .construction-hero {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
 }
 
 /* background video style begins here */
-.construction-hero #bg-video {
-  object-fit: fill;
+.construction-hero .construction-video {
+  position: absolute;
+  top: -12%;
+  width: 100%;
+  min-height: 100%;
+  z-index: -99;
 }
 
 /* background video style ends here */
-.construction-hero .get-started {
-  margin-top: 2.2rem;
+.construction-hero .back-home {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
+  position: absolute;
+  bottom: 5%;
 }
 
-.construction-hero .get-started img{
+.construction-hero .back-home img{
   width: 50%;
   height: 50%;
 }
-.construction-hero .get-started a {
+.construction-hero .back-home a {
   display: block;
-  color: white;
+  color: black;
   text-decoration: none;
   font-size: 1.5rem;
 }
-.construction-hero .get-started a:hover{
+.construction-hero .back-home a:hover{
+  font-weight: 900;
   color: black;
 }
 
@@ -1356,4 +1367,21 @@ footer .bottom-nav .active {
   }
 
 
+/* background video style ends here */
+.construction-hero .back-home {
+  bottom: 0;
+  top: 30%;
+}
+
+.construction-hero .back-home img{
+  width: 100%;
+  height: 100%;
+}
+.construction-hero .back-home a {
+  color: white;
+}
+.construction-hero .back-home a:hover{
+  font-weight: 900;
+  color: white;
+}
 }
