@@ -701,7 +701,7 @@ footer .bottom-nav .active {
 /* background video style begins here */
 .construction-hero .construction-video {
   position: absolute;
-  top: -12%;
+  top:0;
   width: 100%;
   min-height: 100%;
   z-index: -99;
@@ -733,6 +733,15 @@ footer .bottom-nav .active {
   color: black;
 }
 
+@media screen and (min-width: 1880px) {
+
+/* background video style begins here */
+.construction-hero .construction-video {
+  position: absolute;
+  top: -12%;
+}
+
+}
 
 @media screen and (max-width: 768px) {
 
