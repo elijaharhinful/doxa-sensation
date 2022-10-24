@@ -741,6 +741,10 @@ footer .bottom-nav .active {
   top: -12%;
 }
 
+footer .top .logo img {
+  height: 95%;
+  width: 50%;
+}
 }
 
 @media screen and (max-width: 768px) {
