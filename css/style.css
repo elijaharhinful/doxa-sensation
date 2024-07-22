@@ -747,6 +747,7 @@ footer .top .logo img {
 }
 }
 
+/* mobile devices */
 @media screen and (max-width: 768px) {
 
   header {

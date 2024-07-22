@@ -14,6 +14,9 @@
     <!--site stylesheet-->
     <link rel="stylesheet" href="./css/style.css" type="text/css" />
 
+    <!--fantasy stylesheet-->
+    <link rel="stylesheet" href="./css/fantasy.css" type="text/css" />
+
     <!-- scroll reveal script -->
     <script src="./js/scrollreveal.min.js"></script>
 
@@ -26,8 +29,43 @@
 </head>
 
 <body>
-   
-    <div class="construction-hero">
+    <header>
+        <a class="logo" href="index.html"><img src="./images/logo/doxa_logo_portrait.png" alt="doxa logo" /></a>
+        <span class="openbtn" onclick="openNav()">&#9776;</span>
+    </header>
+
+    <nav class="top-nav scale-in-center" id="top-nav">
+        <a class="logo" href="index.html"><img src="./images/logo/doxa_logo_landscape_white.png" alt="doxa logo" /></a>
+        <a class="logo1" href="index.html"><img src="./images/logo/doxa_logo_portrait.png" alt="doxa logo" /></a>
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="./professional-portfolio.html">Professional Portfolio</a>
+            </li>
+            <li>
+                <a class="active" href="./fantasy-projects.html">Fantasy Projects</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="nsmq">
+        <h3>National Science and Maths Quiz</h3>
+        <div class="wrapper">
+            <div class="one">One</div>
+            <div class="two">Two</div>
+            <div class="three">Three</div>
+            <div class="four">Four</div>
+            <div class="five">Five</div>
+            <div class="six">Six</div>
+        </div>
+    </div>
+
+    <!-- <div class="construction-hero">
         <video autoplay playsinline muted loop poster="./images/thumbnail.png" class="construction-video">
             <source src="./videos/under_construction.mp4" type="video/mp4" />
             There is a video here. Sadly your browser does not support it.
@@ -36,7 +74,7 @@
             <a href="./index.html"><img src="./images/icons/arrow_circle_back_icon.png" alt="down-arrow"></a>
             <a href="./index.html"> Go back home</a>
         </div>
-    </div>
+    </div> -->
 
 
 
@@ -70,6 +108,8 @@
         </ul>
     </aside>
 
+    <!--magnific popup js-->
+    <script src="js/jquery.magnific-popup.min.js"></script>
     <!--main site js-->
     <script src="./js/site.js"></script>
 
