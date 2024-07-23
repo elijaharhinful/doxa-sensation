@@ -31,3 +31,4 @@ var leftArrayItems = [
 ]
 
 ScrollReveal().reveal(leftArrayItems,{delay: 400})
+
